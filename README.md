@@ -38,17 +38,17 @@ This PoC is an example of microfrontend architecture developed using the ReactJS
 
     There are several technology stacks that can be used to implement Micro Frontend Architecture. Here are some popular technology stacks:
     
-    React: React is a popular JavaScript library that is often used to build user interfaces. It is a good choice for building micro frontends because it has a strong ecosystem of libraries and tools, and it can be easily integrated into other frameworks and libraries.
+    1. React: React is a popular JavaScript library that is often used to build user interfaces. It is a good choice for building micro frontends because it has a strong ecosystem of libraries and tools, and it can be easily integrated into other frameworks and libraries.
     
-    Angular: Angular is another popular JavaScript framework that can be used to build micro frontends. It provides a comprehensive set of tools for building complex web applications, including a powerful templating system, dependency injection, and routing.
+    2. Angular: Angular is another popular JavaScript framework that can be used to build micro frontends. It provides a comprehensive set of tools for building complex web applications, including a powerful templating system, dependency injection, and routing.
     
-    Vue.js: Vue.js is a progressive JavaScript framework that can be used to build micro frontends. It is lightweight and easy to learn, making it a good choice for small and medium-sized applications.
+    3. Vue.js: Vue.js is a progressive JavaScript framework that can be used to build micro frontends. It is lightweight and easy to learn, making it a good choice for small and medium-sized applications.
     
-    Web Components: Web Components are a set of web platform APIs that allow you to create reusable custom elements that can be used in any web application. They are built using HTML, CSS, and JavaScript, and can be easily integrated into any technology stack.
+    4. Web Components: Web Components are a set of web platform APIs that allow you to create reusable custom elements that can be used in any web application. They are built using HTML, CSS, and JavaScript, and can be easily integrated into any technology stack.
     
-    Single-spa: Single-spa is a JavaScript framework that is specifically designed for building micro frontends. It provides a set of tools and libraries for building independent micro frontends that can be easily integrated into a single application.
+    5. Single-spa: Single-spa is a JavaScript framework that is specifically designed for building micro frontends. It provides a set of tools and libraries for building independent micro frontends that can be easily integrated into a single application.
     
-    Micro Frontends in Action: Micro Frontends in Action is a framework-agnostic approach to building micro frontends. It provides a set of principles and best practices for building independent micro frontends that can be easily integrated into a single application.
+    6. Micro Frontends in Action: Micro Frontends in Action is a framework-agnostic approach to building micro frontends. It provides a set of principles and best practices for building independent micro frontends that can be easily integrated into a single application.
     
     In summary, there are several technology stacks that can be used to implement Micro Frontend Architecture, including React, Angular, Vue.js, Web Components, Single-spa, and Micro Frontends in Action. The choice of technology stack depends on the specific needs of the application and the skills and preferences of the development team.
 
@@ -56,16 +56,16 @@ This PoC is an example of microfrontend architecture developed using the ReactJS
 
     While Micro Frontend architecture has many benefits, there are also some challenges and disadvantages that come with this approach. Some of the main challenges and disadvantages include:
     
-    Increased complexity: Micro Frontends can be more complex to set up and maintain than a traditional monolithic frontend. Each module has its own technology stack and requires careful coordination to ensure that they work together seamlessly.
+    1. Increased complexity: Micro Frontends can be more complex to set up and maintain than a traditional monolithic frontend. Each module has its own technology stack and requires careful coordination to ensure that they work together seamlessly.
     
-    Communication overhead: Because Micro Frontends are broken down into smaller parts, communication between the different modules can become more complex. It may be necessary to set up a communication protocol or API to facilitate communication between the different modules.
+    2. Communication overhead: Because Micro Frontends are broken down into smaller parts, communication between the different modules can become more complex. It may be necessary to set up a communication protocol or API to facilitate communication between the different modules.
     
-    Consistency and standardization: Maintaining consistency and standardization across different modules can be challenging. Each module may have its own development team and standards, which can lead to inconsistencies in terms of look and feel, user experience, and functionality.
+    3. Consistency and standardization: Maintaining consistency and standardization across different modules can be challenging. Each module may have its own development team and standards, which can lead to inconsistencies in terms of look and feel, user experience, and functionality.
     
-    Deployment and testing: Deploying and testing Micro Frontends can be more challenging than a traditional monolithic frontend. Each module must be tested individually and deployed separately, which can add complexity and overhead to the development process.
+    4. Deployment and testing: Deploying and testing Micro Frontends can be more challenging than a traditional monolithic frontend. Each module must be tested individually and deployed separately, which can add complexity and overhead to the development process.
     
-    Development complexity: Developing Micro Frontends can be more complex than a traditional monolithic frontend. Each module must be developed and tested independently, which can lead to slower development times and increased costs.
+    5. Development complexity: Developing Micro Frontends can be more complex than a traditional monolithic frontend. Each module must be developed and tested independently, which can lead to slower development times and increased costs.
     
-    Increased memory usage: Micro Frontends require more resources and memory than a traditional monolithic frontend. Each module requires its own runtime environment, which can lead to increased memory usage and slower performance.
+    6. Increased memory usage: Micro Frontends require more resources and memory than a traditional monolithic frontend. Each module requires its own runtime environment, which can lead to increased memory usage and slower performance.
     
     Overall, while Micro Frontend architecture has many benefits, it is not a one-size-fits-all solution. It is important to carefully evaluate the advantages and disadvantages of this approach before deciding whether it is the right choice for your project.
