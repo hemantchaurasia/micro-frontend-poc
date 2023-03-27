@@ -69,3 +69,14 @@ This PoC is an example of microfrontend architecture developed using the ReactJS
     6. Increased memory usage: Micro Frontends require more resources and memory than a traditional monolithic frontend. Each module requires its own runtime environment, which can lead to increased memory usage and slower performance.
     
     Overall, while Micro Frontend architecture has many benefits, it is not a one-size-fits-all solution. It is important to carefully evaluate the advantages and disadvantages of this approach before deciding whether it is the right choice for your project.
+
+### how the microfrontend depends on micoservices?
+Microfrontend and microservices are two different architectural patterns that can be used together in the development of modern web applications.
+
+Microfrontend is an approach to front-end development in which a large monolithic front-end application is broken down into smaller, more manageable pieces, often referred to as "microfrontends". These microfrontends can be developed and deployed independently, allowing teams to work on different parts of the front-end application simultaneously and making it easier to scale and maintain the application.
+
+Microservices, on the other hand, is an approach to back-end development in which a large monolithic application is broken down into smaller, independent services that can be developed and deployed independently. Each microservice is responsible for a specific functionality and communicates with other microservices using APIs.
+
+Microfrontends and microservices are complementary to each other as they share the same principles of modularity, scalability, and flexibility. In a microfrontend architecture, the front-end is divided into independent modules that can be deployed and scaled separately. Each module can be implemented as a microservice, which exposes APIs for the front-end to consume. This enables the front-end application to call back-end services directly, without the need for an intermediary server.
+
+Therefore, microfrontends and microservices depend on each other in the sense that microservices provide the back-end services that microfrontends consume to provide a complete end-to-end solution for the application. By using these two architectural patterns together, developers can build highly scalable, modular, and maintainable web applications.
